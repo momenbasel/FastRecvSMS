@@ -2,9 +2,10 @@
 
 Enterprise SMS verification toolkit for security professionals. Purchase temporary phone numbers and receive SMS verification codes through a unified CLI with multi-provider support.
 
-[![PyPI](https://img.shields.io/pypi/v/fastrecvsms)](https://pypi.org/project/fastrecvsms/)
-[![Python](https://img.shields.io/pypi/pyversions/fastrecvsms)](https://pypi.org/project/fastrecvsms/)
-[![License](https://img.shields.io/github/license/momenbasel/FastRecvSMS)](LICENSE)
+[![PyPI Version](https://img.shields.io/pypi/v/fastrecvsms?style=flat-square&label=version)](https://pypi.org/project/fastrecvsms/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/fastrecvsms?style=flat-square)](https://pypi.org/project/fastrecvsms/)
+[![License](https://img.shields.io/github/license/momenbasel/FastRecvSMS?style=flat-square)](LICENSE)
+[![Downloads](https://img.shields.io/pypi/dm/fastrecvsms?style=flat-square&label=downloads)](https://pypi.org/project/fastrecvsms/)
 
 ---
 
