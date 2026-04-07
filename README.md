@@ -2,9 +2,9 @@
 
 Enterprise SMS verification toolkit for security professionals. Purchase temporary phone numbers and receive SMS verification codes through a unified CLI with multi-provider support.
 
-[![PyPI](https://img.shields.io/pypi/v/fastrecvsms)](https://pypi.org/project/fastrecvsms/)
-[![Python](https://img.shields.io/pypi/pyversions/fastrecvsms)](https://pypi.org/project/fastrecvsms/)
-[![License](https://img.shields.io/github/license/momenbasel/FastRecvSMS)](LICENSE)
+[![Version](https://img.shields.io/badge/version-2.0.0-blue)](https://github.com/momenbasel/FastRecvSMS/releases)
+[![Python](https://img.shields.io/badge/python-3.9%2B-green)](https://www.python.org)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
 
 ---
 
@@ -19,18 +19,10 @@ Enterprise SMS verification toolkit for security professionals. Purchase tempora
 
 ## Installation
 
-### From Source
-
 ```bash
 git clone https://github.com/momenbasel/FastRecvSMS.git
 cd FastRecvSMS
 pip install -e .
-```
-
-### From PyPI
-
-```bash
-pip install fastrecvsms
 ```
 
 ## Quick Start
