@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Enterprise SMS verification toolkit for security professionals.</strong><br>
+  <strong>SMS verification toolkit for security professionals.</strong><br>
   Purchase temporary phone numbers and receive SMS verification codes through a unified CLI.
 </p>
 
