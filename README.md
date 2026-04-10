@@ -1,11 +1,18 @@
-# FastRecvSMS
+<p align="center">
+  <img src="docs/banner.png" alt="FastRecvSMS" width="800">
+</p>
 
-Enterprise SMS verification toolkit for security professionals. Purchase temporary phone numbers and receive SMS verification codes through a unified CLI with multi-provider support.
+<p align="center">
+  <strong>Enterprise SMS verification toolkit for security professionals.</strong><br>
+  Purchase temporary phone numbers and receive SMS verification codes through a unified CLI.
+</p>
 
-[![PyPI Version](https://img.shields.io/pypi/v/fastrecvsms?style=flat-square&label=version)](https://pypi.org/project/fastrecvsms/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/fastrecvsms?style=flat-square)](https://pypi.org/project/fastrecvsms/)
-[![License](https://img.shields.io/github/license/momenbasel/FastRecvSMS?style=flat-square)](LICENSE)
-[![Downloads](https://img.shields.io/pypi/dm/fastrecvsms?style=flat-square&label=downloads)](https://pypi.org/project/fastrecvsms/)
+<p align="center">
+  <a href="https://pypi.org/project/fastrecvsms/"><img src="https://img.shields.io/pypi/v/fastrecvsms?style=flat-square&label=version" alt="PyPI"></a>
+  <a href="https://pypi.org/project/fastrecvsms/"><img src="https://img.shields.io/pypi/pyversions/fastrecvsms?style=flat-square" alt="Python"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/momenbasel/FastRecvSMS?style=flat-square" alt="License"></a>
+  <a href="https://pypi.org/project/fastrecvsms/"><img src="https://img.shields.io/pypi/dm/fastrecvsms?style=flat-square&label=downloads" alt="Downloads"></a>
+</p>
 
 ---
 
