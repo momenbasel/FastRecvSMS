@@ -163,6 +163,59 @@ Both `fastrecvsms` and `frsms` are registered as entry points:
 frsms buy telegram --country russia
 ```
 
+## MCP Server (AI Agent Integration)
+
+FastRecvSMS includes an MCP (Model Context Protocol) server, making SMS verification tools available to AI assistants like **Claude Code**, **Codex**, **Gemini**, and **Cursor**.
+
+### Install with MCP support
+
+```bash
+pip install fastrecvsms[mcp]
+```
+
+### Configure for Claude Code
+
+Add to `~/.claude/settings.json`:
+
+```json
+{
+  "mcpServers": {
+    "fastrecvsms": {
+      "command": "fastrecvsms-mcp"
+    }
+  }
+}
+```
+
+### Configure for Cursor
+
+Add to `.cursor/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "fastrecvsms": {
+      "command": "fastrecvsms-mcp"
+    }
+  }
+}
+```
+
+### Available MCP tools
+
+| Tool | Description |
+|------|-------------|
+| `get_balance` | Check provider account balance |
+| `list_services` | List available services with prices and stock |
+| `buy_number` | Buy a temporary phone number for a service |
+| `check_sms` | Check if an SMS code has arrived |
+| `wait_for_sms` | Poll until SMS received or timeout |
+| `cancel_order` | Cancel an active order |
+| `finish_order` | Mark order as complete |
+| `list_active_orders` | List all pending orders in this session |
+
+Your AI agent can now buy numbers and receive verification codes autonomously.
+
 ## Programmatic Usage
 
 Import the package directly for scripting:
