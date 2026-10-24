@@ -4,23 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FastRecvSMS - SMS Verification CLI for Security Professionals</title>
-  <meta name="description" content="Buy temporary phone numbers and receive SMS verification codes in one command. Multi-provider CLI supporting 5sim and SMS-Activate across 170+ countries.">
+  <meta name="description" content="Buy temporary phone numbers and receive SMS verification codes in one command. Multi-provider CLI supporting 5sim and SMS-Activate across Check live country and service availability.">
   <meta name="keywords" content="sms verification, temporary phone number, virtual number, OTP, CLI tool, security automation, pentesting, 5sim, sms-activate, python, receive sms online, disposable number, phone verification, two-factor authentication, bug bounty">
   <meta name="author" content="Moamen Basel">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://momenbasel.github.io/FastRecvSMS/">
+  <link rel="canonical" href="https://www.moamenbasel.com/FastRecvSMS/">
 
   <!-- Open Graph -->
   <meta property="og:title" content="FastRecvSMS - SMS Verification CLI">
-  <meta property="og:description" content="Buy temp numbers and receive OTP codes in one command. Multi-provider. Real-time. 170+ countries.">
+  <meta property="og:description" content="Buy temp numbers and receive OTP codes in one command. Multi-provider. Real-time. Check live country and service availability.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://momenbasel.github.io/FastRecvSMS/">
+  <meta property="og:url" content="https://www.moamenbasel.com/FastRecvSMS/">
   <meta property="og:image" content="https://raw.githubusercontent.com/momenbasel/FastRecvSMS/main/docs/social-preview.png">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="FastRecvSMS - SMS Verification CLI">
-  <meta name="twitter:description" content="Buy temp numbers and receive OTP codes in one command. Multi-provider. Real-time. 170+ countries.">
+  <meta name="twitter:description" content="Buy temp numbers and receive OTP codes in one command. Multi-provider. Real-time. Check live country and service availability.">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/momenbasel/FastRecvSMS/main/docs/social-preview.png">
 
   <!-- Favicon -->
@@ -36,7 +36,7 @@
     "operatingSystem": "Cross-platform",
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
     "description": "SMS verification CLI tool for security professionals. Buy temporary phone numbers and receive OTP codes through a unified command-line interface.",
-    "url": "https://momenbasel.github.io/FastRecvSMS/",
+    "url": "https://www.moamenbasel.com/FastRecvSMS/",
     "downloadUrl": "https://pypi.org/project/fastrecvsms/",
     "softwareVersion": "2.0.0",
     "author": { "@type": "Person", "name": "Moamen Basel", "url": "https://github.com/momenbasel" },
@@ -210,51 +210,6 @@
       padding-left: 12px;
       border-left: 1px solid var(--border);
     }
-
-    /* ---- TERMINAL DEMO ---- */
-    .terminal-section {
-      padding: 0 2rem 100px;
-    }
-    .terminal {
-      max-width: 720px;
-      margin: 0 auto;
-      background: #0c0c0c;
-      border-radius: 12px;
-      border: 1px solid var(--border);
-      overflow: hidden;
-      box-shadow: 0 25px 60px rgba(0,0,0,0.5);
-    }
-    .terminal-bar {
-      display: flex; align-items: center; gap: 8px;
-      padding: 12px 16px;
-      background: #161616;
-      border-bottom: 1px solid #222;
-    }
-    .terminal-dot {
-      width: 12px; height: 12px; border-radius: 50%;
-    }
-    .terminal-dot.r { background: #ff5f57; }
-    .terminal-dot.y { background: #febc2e; }
-    .terminal-dot.g { background: #28c840; }
-    .terminal-title {
-      flex: 1; text-align: center;
-      color: #666; font-size: 0.8rem; font-weight: 500;
-    }
-    .terminal-body {
-      padding: 20px 24px;
-      font-size: 0.88rem;
-      line-height: 1.8;
-      overflow-x: auto;
-    }
-    .terminal-body .line { white-space: pre; }
-    .t-prompt { color: var(--green); }
-    .t-cmd { color: #fff; }
-    .t-flag { color: var(--purple); }
-    .t-val { color: var(--yellow); }
-    .t-dim { color: #555; }
-    .t-info { color: var(--accent); }
-    .t-success { color: var(--green); }
-    .t-label { color: var(--text-muted); }
 
     /* ---- SECTIONS ---- */
     section {
@@ -552,18 +507,84 @@
     .animate.d2 { animation-delay: 0.2s; }
     .animate.d3 { animation-delay: 0.3s; }
     .animate.d4 { animation-delay: 0.4s; }
+
+    [hidden] { display: none !important; }
+    :root { --text-muted: #a1aec1; }
+    html { scroll-padding-top: 90px; }
+    :focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+    .skip-link { position: fixed; top: -80px; left: 16px; padding: 12px 18px; background: var(--bg-card); z-index: 200; }
+    .skip-link:focus { top: 12px; }
+    .menu-toggle { display: none; font: inherit; color: var(--text); background: var(--bg-card); border: 1px solid var(--border); padding: 9px 14px; border-radius: 8px; }
+    .nav-links .btn-sm, .btn-primary, .btn-primary:hover { color: #10151c; }
+    .hero { min-height: auto; padding: 144px 2rem 80px; max-width: 1200px; margin: auto; justify-content: space-between; gap: 64px; }
+    .hero::before, .hero::after, .cta::before { display: none; }
+    .hero-content { text-align: left; max-width: 720px; }
+    .hero h1 { font-size: clamp(2.4rem, 5vw, 4rem); }
+    .hero h1 .gradient { background: none; color: var(--accent); -webkit-text-fill-color: currentColor; }
+    .hero p { margin: 0 0 2rem; max-width: 560px; }
+    .hero .hero-actions { justify-content: flex-start; }
+    .hero-art { width: 180px; height: 180px; object-fit: contain; border-radius: 32px; }
+    .hero-badge { margin-bottom: 1.25rem; }
+    .hero-install { margin-top: 1.25rem; color: var(--text); font: inherit; text-align: left; max-width: 100%; }
+    .hero-install code { overflow-wrap: anywhere; min-width: 0; }
+    .hero-content { min-width: 0; }
+    .copy-status { min-height: 1.8em; margin-top: 8px; color: var(--text-dim); font-size: .9rem; }
+    .quick-start { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .setup-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; margin-top: 2rem; }
+    .setup-grid > div { min-width: 0; }
+    .mcp-block > * { min-width: 0; }
+    .setup-grid h3 { margin-bottom: .8rem; }
+    .setup-grid ul { padding-left: 1.25rem; color: var(--text-dim); }
+    .setup-grid li { margin: .4rem 0; }
+    .setup-grid pre { background: var(--bg-code); border: 1px solid var(--border); border-radius: 12px; padding: 22px; overflow: auto; font-size: .9rem; line-height: 1.8; }
+    .setup-grid p { color: var(--text-dim); margin-top: 1rem; }
+    .code-body, .cmd-body, .mcp-tools { min-width: 0; overflow-x: auto; }
+    .feature-card, .cmd-card, .code-block { min-width: 0; }
+    .feature-card { box-shadow: none; }
+    .btn { white-space: nowrap; }
+    .animate { opacity: 1; animation: none; }
+    @media (max-width: 900px) {
+      nav { padding: 0 1.25rem; }
+      .menu-toggle { display: block; cursor: pointer; }
+      .nav-inner { position: relative; }
+      .nav-links { display: none; position: absolute; top: 64px; left: -1.25rem; right: -1.25rem; padding: 18px 1.25rem; background: var(--bg-card); border-bottom: 1px solid var(--border); flex-wrap: wrap; gap: 12px 24px; }
+      .nav-links.is-open { display: flex; }
+      .nav-links a:not(.btn-sm) { display: block; padding: 8px 0; }
+      .hero { padding: 112px 1.25rem 56px; gap: 24px; }
+      .hero-art { width: 120px; height: 120px; }
+    }
+    @media (max-width: 600px) {
+      .hero-art { display: none; }
+      .setup-grid { grid-template-columns: 1fr; gap: 28px; }
+      .hero-install { padding: 14px; gap: 8px; }
+      .hero-install .copy { padding-left: 8px; white-space: nowrap; }
+      .stats-row { flex-wrap: wrap; gap: 24px; }
+      .stat { flex: 1 1 40%; }
+      .hero-actions { gap: 12px; }
+      .btn { padding: 12px 20px; }
+      .mcp-tools table { font-size: .8rem; }
+      .footer-links { flex-wrap: wrap; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
   </style>
+<noscript><style>@media (max-width: 900px) { nav { position: static; } .nav-inner { height: auto; min-height: 64px; flex-wrap: wrap; } .nav-links { display: flex; position: static; padding: 12px 0; border: 0; } .hero { padding-top: 56px; } }</style></noscript>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- NAV -->
-  <nav>
+  <nav aria-label="Main navigation">
     <div class="nav-inner">
       <a href="#" class="nav-logo">
         <img src="https://raw.githubusercontent.com/momenbasel/FastRecvSMS/main/docs/logo.png" alt="FastRecvSMS">
         FastRecvSMS
       </a>
-      <div class="nav-links">
+      <button class="menu-toggle" hidden type="button" aria-expanded="false" aria-controls="navigation">Menu</button>
+      <div class="nav-links" id="navigation">
+        <a href="#install">Install</a>
         <a href="#features">Features</a>
         <a href="#commands">Commands</a>
         <a href="#mcp">MCP</a>
@@ -574,18 +595,18 @@
   </nav>
 
   <!-- HERO -->
+  <main id="main" tabindex="-1">
   <section class="hero">
     <div class="hero-content">
       <div class="hero-badge animate">
-        <span>v2.0</span> Now with MCP server for AI agents
+        <span>v2.0.0</span> Now with MCP server for AI agents
       </div>
       <h1 class="animate d1">
         SMS verification<br>
         <span class="gradient">from the terminal.</span>
       </h1>
       <p class="animate d2">
-        Buy temporary phone numbers and receive OTP codes in one command.
-        Multi-provider, real-time, 170+ countries.
+        Buy temporary numbers and receive verification codes through a single CLI with live order monitoring.
       </p>
       <div class="hero-actions animate d3">
         <a href="https://pypi.org/project/fastrecvsms/" class="btn btn-primary">
@@ -597,44 +618,30 @@
           View Source
         </a>
       </div>
-      <div class="hero-install animate d4" onclick="navigator.clipboard.writeText('pip install fastrecvsms');" title="Click to copy">
+      <button class="hero-install" hidden type="button" aria-label="Copy install command">
         <span class="prompt">$</span>
         <code>pip install fastrecvsms</code>
-        <span class="copy">click to copy</span>
-      </div>
+        <span class="copy">Copy</span>
+      </button>
+      <div class="copy-status" role="status" aria-live="polite"></div>
+    </div>
+    <img class="hero-art" src="https://raw.githubusercontent.com/momenbasel/FastRecvSMS/main/docs/logo.png" alt="" width="180" height="180">
+  </section>
+
+  <section id="install" class="quick-start">
+    <h2 class="section-title">From install to first command</h2>
+    <p class="section-desc">The CLI is free. Phone numbers are purchased through your provider account.</p>
+    <div class="setup-grid">
+      <div><h3>What you need</h3><ul><li>Python 3.9 or later.</li><li>A 5sim or SMS-Activate account and API key.</li><li>Provider credit for paid number purchases.</li></ul><p>Countries, services, stock, and prices come from the provider. Check current availability before placing an order.</p></div>
+      <div><h3>Install and check availability</h3><pre><code>pip install fastrecvsms
+fastrecvsms config set-key 5sim YOUR_API_KEY
+fastrecvsms balance
+fastrecvsms services</code></pre><p><a href="https://github.com/momenbasel/FastRecvSMS#configuration">Configuration and environment variables</a></p></div>
     </div>
   </section>
 
-  <!-- TERMINAL DEMO -->
-  <div class="terminal-section">
-    <div class="terminal animate">
-      <div class="terminal-bar">
-        <div class="terminal-dot r"></div>
-        <div class="terminal-dot y"></div>
-        <div class="terminal-dot g"></div>
-        <div class="terminal-title">fastrecvsms</div>
-      </div>
-      <div class="terminal-body">
-        <div class="line"><span class="t-prompt">$</span> <span class="t-cmd">fastrecvsms buy</span> <span class="t-val">whatsapp</span> <span class="t-flag">--country</span> <span class="t-val">russia</span></div>
-        <div class="line">&nbsp;</div>
-        <div class="line"><span class="t-info">Provider:</span>  <span class="t-dim">5sim</span></div>
-        <div class="line"><span class="t-info">Service:</span>   <span class="t-dim">whatsapp</span></div>
-        <div class="line"><span class="t-info">Country:</span>   <span class="t-dim">russia</span></div>
-        <div class="line"><span class="t-info">Number:</span>    <span class="t-cmd">+7 (985) 412-7803</span></div>
-        <div class="line"><span class="t-info">Price:</span>     <span class="t-dim">22.00 RUB</span></div>
-        <div class="line"><span class="t-info">Order ID:</span>  <span class="t-dim">387141506</span></div>
-        <div class="line">&nbsp;</div>
-        <div class="line"><span class="t-label">Waiting for SMS...</span>  <span class="t-dim">[elapsed: 12s]</span></div>
-        <div class="line">&nbsp;</div>
-        <div class="line"><span class="t-success">SMS Received!</span></div>
-        <div class="line"><span class="t-info">Code:</span>  <span class="t-cmd" style="font-size:1.1rem;font-weight:700;">483-291</span></div>
-      </div>
-    </div>
-  </div>
-
   <!-- FEATURES -->
   <section id="features">
-    <div class="section-label">Features</div>
     <h2 class="section-title">Everything you need in one CLI</h2>
     <p class="section-desc">Built for security professionals who need fast, reliable SMS verification without leaving the terminal.</p>
     <div class="features-grid">
@@ -684,8 +691,8 @@
 
     <div class="stats-row">
       <div class="stat">
-        <div class="stat-val">170+</div>
-        <div class="stat-label">Countries</div>
+        <div class="stat-val">CLI</div>
+        <div class="stat-label">Live service lookup</div>
       </div>
       <div class="stat">
         <div class="stat-val">2</div>
@@ -704,7 +711,6 @@
 
   <!-- PROVIDERS -->
   <section id="providers">
-    <div class="section-label">Providers</div>
     <h2 class="section-title">One interface, multiple backends</h2>
     <p class="section-desc">Connect to the provider that works best for your region and use case.</p>
     <div class="providers-row">
@@ -713,9 +719,9 @@
         <div class="tag">Default Provider</div>
         <ul>
           <li>Extensive country coverage</li>
-          <li>Competitive pricing</li>
-          <li>Fast number activation</li>
-          <li>Supports 100+ services</li>
+          <li>Provider-priced numbers</li>
+          <li>Check live stock in the CLI</li>
+          <li>Service and country selection</li>
         </ul>
       </div>
       <div class="provider-card">
@@ -724,8 +730,8 @@
         <ul>
           <li>Wide service selection</li>
           <li>Multiple payment methods</li>
-          <li>High number availability</li>
-          <li>Reliable SMS delivery</li>
+          <li>Service and country selection</li>
+          <li>Order status and cancellation</li>
         </ul>
       </div>
     </div>
@@ -733,7 +739,6 @@
 
   <!-- COMMANDS -->
   <section id="commands">
-    <div class="section-label">Commands</div>
     <h2 class="section-title">Complete CLI reference</h2>
     <p class="section-desc">Everything is a single command away. No multi-step workflows.</p>
     <div class="commands-grid">
@@ -775,15 +780,13 @@
 
   <!-- MCP -->
   <section id="mcp">
-    <div class="section-label">AI Integration</div>
     <h2 class="section-title">MCP Server for AI agents</h2>
     <p class="section-desc">Let Claude, Cursor, or any MCP-compatible AI agent handle SMS verification autonomously.</p>
     <div class="mcp-block">
       <div class="mcp-info">
         <h3>Plug into any MCP client</h3>
         <p>
-          FastRecvSMS ships a built-in Model Context Protocol server. Add it to your AI editor's config
-          and your agent can buy numbers, wait for codes, and manage orders - no human in the loop.
+          Install <code>"fastrecvsms[mcp]"</code> to add the Model Context Protocol server. Connect your MCP client to buy numbers, wait for codes, and manage orders using your configured provider account.
         </p>
         <div class="code-block">
           <div class="code-header">claude_desktop_config.json</div>
@@ -820,7 +823,6 @@
 
   <!-- API -->
   <section id="api">
-    <div class="section-label">Python API</div>
     <h2 class="section-title">Use it as a library</h2>
     <p class="section-desc">Import directly for scripting, automation, or integration into larger workflows.</p>
     <div class="code-block" style="max-width:680px;">
@@ -849,10 +851,10 @@ result <span class="c-op">=</span> provider.<span class="c-fn">check_order</span
   <!-- CTA -->
   <section class="cta">
     <h2>Ready to automate SMS verification?</h2>
-    <p>Install FastRecvSMS and start receiving codes in seconds.</p>
+    <p>Install the CLI, configure a provider, and check available services before purchasing a number.</p>
     <div class="hero-actions">
       <a href="https://pypi.org/project/fastrecvsms/" class="btn btn-primary">
-        Install v2.0
+        Install from PyPI
       </a>
       <a href="https://github.com/momenbasel/FastRecvSMS" class="btn btn-secondary">
         Read the docs
@@ -861,6 +863,7 @@ result <span class="c-op">=</span> provider.<span class="c-fn">check_order</span
   </section>
 
   <!-- FOOTER -->
+  </main>
   <footer>
     <div class="footer-links">
       <a href="https://github.com/momenbasel/FastRecvSMS">GitHub</a>
@@ -871,36 +874,37 @@ result <span class="c-op">=</span> provider.<span class="c-fn">check_order</span
     <p>Built by <a href="https://github.com/momenbasel">Moamen Basel</a></p>
   </footer>
 
-  <!-- Intersection Observer for animations -->
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(e => {
-          if (e.isIntersecting) {
-            e.target.classList.add('animate');
-            observer.unobserve(e.target);
-          }
-        });
-      }, { threshold: 0.1 });
-
-      document.querySelectorAll('.feature-card, .provider-card, .cmd-card, .code-block, .mcp-tools').forEach(el => {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(20px)';
-        el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-        observer.observe(el);
-      });
-
-      // Override animate class for observed elements
-      const style = document.createElement('style');
-      style.textContent = `.feature-card.animate, .provider-card.animate, .cmd-card.animate, .code-block.animate, .mcp-tools.animate { opacity: 1 !important; transform: translateY(0) !important; }`;
-      document.head.appendChild(style);
-
-      // Copy to clipboard on install click
-      document.querySelector('.hero-install')?.addEventListener('click', function() {
-        const copy = this.querySelector('.copy');
-        copy.textContent = 'copied!';
-        setTimeout(() => copy.textContent = 'click to copy', 2000);
-      });
+    const menu = document.querySelector('.menu-toggle');
+    const navigation = document.querySelector('.nav-links');
+    menu.hidden = false;
+    document.querySelector('.hero-install').hidden = false;
+    menu.addEventListener('click', () => {
+      const expanded = menu.getAttribute('aria-expanded') !== 'true';
+      menu.setAttribute('aria-expanded', String(expanded));
+      navigation.classList.toggle('is-open', expanded);
+    });
+    navigation.addEventListener('click', (event) => {
+      if (event.target.closest('a')) {
+        menu.setAttribute('aria-expanded', 'false');
+        navigation.classList.remove('is-open');
+      }
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && menu.getAttribute('aria-expanded') === 'true') {
+        menu.setAttribute('aria-expanded', 'false');
+        navigation.classList.remove('is-open');
+        menu.focus();
+      }
+    });
+    document.querySelector('.hero-install').addEventListener('click', async function() {
+      const status = document.querySelector('.copy-status');
+      try {
+        await navigator.clipboard.writeText(this.querySelector('code').textContent);
+        status.textContent = 'Install command copied.';
+      } catch (error) {
+        status.textContent = 'Copy unavailable. Select and copy the command above.';
+      }
     });
   </script>
 </body>
